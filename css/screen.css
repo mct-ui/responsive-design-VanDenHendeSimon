@@ -352,6 +352,27 @@ a:focus {
   kan de navigatie zijn
 \*------------------------------------*/
 
+/*
+    Component: Logo
+    ---
+    Website main logo
+*/
+
+.c-logo {
+    height: 32px;
+}
+
+.c-logo__symbol {
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .c-logo {
+        height: 40px;
+    }
+}
+
+
 /*------------------------------------*\
   #UTILITIES
   1 ding die heel specifiek wordt aangepast en altijd moet overrulen
