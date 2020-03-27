@@ -221,6 +221,11 @@ a:focus {
         padding-right: 48px;
     }
 
+    .o-row--md {
+        padding-top: 48px;
+        padding-bottom: 24px;
+    }
+
     .o-row--lg {
         padding-top: 72px;
         padding-bottom: 48px;
@@ -358,6 +363,35 @@ a:focus {
     align-content: space-between;
 }
 
+/*
+    Objects: section
+    ---
+    Creates vertical whitespace between adjacent sections inside a row
+*/
+
+.o-section {
+    /* margin collapsing voorkomen */
+    display: flow-root
+}
+
+.o-section + .o-section {
+    margin-top: 24px;
+}
+
+@media (min-width: 768px) {
+    .o-section--lg + .o-section--lg,
+    .o-section--xl + .o-section--xl {
+        margin-top: 48px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .o-section--xl + .o-section--xl {
+        margin-top: 72px;
+    }
+}
+
+
 /*------------------------------------*\
   #COMPONENTS
   kan de navigatie zijn
@@ -468,6 +502,17 @@ a:focus {
   #UTILITIES
   1 ding die heel specifiek wordt aangepast en altijd moet overrulen
 \*------------------------------------*/
+
+/*
+    Utilities: spacing
+    ---
+    Utility classes to put specific margins and paddings onto elements
+*/
+
+.u-pt-clear {
+    padding-top: 0 !important;
+}
+
 
 /*
     Utilities: max-width
