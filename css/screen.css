@@ -12,6 +12,12 @@
     Global page styles + universal box-sizing:
 */
 
+:root {
+    --primary-color: #5051DB;
+    --primary-color-dark: #3E3EA8;
+    --neutral-dark: #202024;
+}
+
 html {
     font-size: 16px;
     line-height: 1.5;
