@@ -42,7 +42,7 @@
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "HK Grotesk Web", "Helvetica", arial, sans-serif;
+    font-family: "HK Grotesk Web", Helvetica, arial, sans-serif;
     color: var(--neutral-dark);
     /* border-box voegt de border en de padding toe aan de width van het element */
     box-sizing: border-box;
