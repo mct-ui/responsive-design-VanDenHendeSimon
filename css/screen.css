@@ -17,6 +17,7 @@ html {
     line-height: 1.5;
     font-family: Helvetica, arial, sans-serif;
     color: #111;
+    /* border-box voegt de border en de padding toe aan de width van het element */
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -152,6 +153,8 @@ a:focus {
 
 /*------------------------------------*\
   #OBJECTS
+  Single Separation of Consern
+  Herbruikbaar
 \*------------------------------------*/
 
 /*
@@ -160,6 +163,7 @@ a:focus {
     Creates a horizontal row that stretches the viewport and adds padding around children
 */
 
+/* voor de padding */
 .o-row {
     position: relative;
     padding: 24px 24px 0;
@@ -194,7 +198,7 @@ a:focus {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: 90em; /* 90 * 16px = 1440px */
+    max-width: 56.4em; /* 56.4 * 20px = 1128 */
 }
 
 /*
@@ -205,6 +209,7 @@ a:focus {
     with width utilities
 */
 
+/* voor te flexen */
 .o-layout {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -316,10 +321,12 @@ a:focus {
 
 /*------------------------------------*\
   #COMPONENTS
+  kan de navigatie zijn
 \*------------------------------------*/
 
 /*------------------------------------*\
   #UTILITIES
+  1 ding die heel specifiek wordt aangepast en altijd moet overrulen
 \*------------------------------------*/
 
 /*
