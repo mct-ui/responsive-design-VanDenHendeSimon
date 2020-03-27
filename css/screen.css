@@ -5,22 +5,22 @@
 @font-face {
     font-family: "HK Grotesk Web";
     font-weight: 200;
-    src: url("../fonts/hkgrotesk-light-webfont.woff2") format(woff2),
-         url("../fonts/hkgrotesk-light-webfont.woff") format(woff);
+    src: url("../fonts/hkgrotesk-light-webfont.woff2") format("woff2"),
+         url("../fonts/hkgrotesk-light-webfont.woff") format("woff");
 }
 
 @font-face {
     font-family: "HK Grotesk Web";
     font-weight: 400;
-    src: url("../fonts/hkgrotesk-regular-webfont.woff2") format(woff2),
-         url("../fonts/hkgrotesk-regular-webfont.woff") format(woff);
+    src: url("../fonts/hkgrotesk-regular-webfont.woff2") format("woff2"),
+         url("../fonts/hkgrotesk-regular-webfont.woff") format("woff");
 }
 
 @font-face {
     font-family: "HK Grotesk Web";
     font-weight: 600;
-    src: url("../fonts/hkgrotesk-medium-webfont.woff2") format(woff2),
-         url("../fonts/hkgrotesk-medium-webfont.woff") format(woff);
+    src: url("../fonts/hkgrotesk-medium-webfont.woff2") format("woff2"),
+         url("../fonts/hkgrotesk-medium-webfont.woff") format("woff");
 }
 
 /*------------------------------------*\
@@ -42,7 +42,7 @@
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "HK Grotesk Web", Helvetica, arial, sans-serif;
+    font-family: "HK Grotesk Web", "Helvetica", arial, sans-serif;
     color: var(--neutral-dark);
     /* border-box voegt de border en de padding toe aan de width van het element */
     box-sizing: border-box;
