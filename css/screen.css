@@ -471,6 +471,18 @@ c-nav__link--footer {
     }
 }
 
+.c-title-icon {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c-title-icon__icon {
+    width: 18%;
+    height: 18%;
+    fill: #202024;
+    padding-right: 12px;
+}
+
 
 /*
     Component: CTA link
