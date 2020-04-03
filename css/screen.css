@@ -470,6 +470,10 @@ a:focus {
     background-color: #fff;
 }
 
+.c-link-cta--inverse:hover {
+    color: #fff;
+}
+
 .c-link-cta--inverse:hover::before {
     background-color: #fff;
 }
