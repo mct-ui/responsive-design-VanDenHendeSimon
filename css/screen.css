@@ -424,7 +424,7 @@ a:focus {
 }
 
 .c-footer__logo {
-    width: 100%;    /* Force it to have a separate line */
+    flex-basis: 100%;
     padding-left: -16px;
 }
 
@@ -438,7 +438,7 @@ c-nav__link--footer {
 }
 
 @media (min-width: 768px) {
-    .c-footer {    
+    .c-footer {
         justify-content: center;
     }
 
@@ -446,25 +446,24 @@ c-nav__link--footer {
     }
 
     .c-footer__nav {
-        max-width: 100%;
-        justify-content: center;
     }
 }
 
 @media (min-width: 992px) {
     .c-footer {
+        justify-content: space-between;
     }
 
     .c-footer__logo {
+        flex-basis: auto;
         width: auto;
-        order: 1;    
+        order: 1;
     }
 
     .c-footer__logo .c-logo {
     }
 
     .c-footer__nav {
-        justify-content: space-between;
     }
 
     .c-footer__nav--right {
