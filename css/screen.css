@@ -408,6 +408,41 @@ a:focus {
 \*------------------------------------*/
 
 /*
+    Component: lead
+    ---
+    Leading text of an article
+
+*/
+
+.c-lead {
+    font-weight: 200;
+}
+
+
+.c-lead--lg {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.c-lead--xl {
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.c-lead--xxl {
+    font-size: 36px;
+    line-height: 48px;
+    margin: 0 0 24px;
+}
+
+.c-lead--xxxl {
+    font-size: 66px;
+    line-height: 72px;
+    margin: 0 0 24px;
+}
+
+
+/*
     Component: header
     ---
     Main header of the website
@@ -512,6 +547,21 @@ a:focus {
   #UTILITIES
   1 ding die heel specifiek wordt aangepast en altijd moet overrulen
 \*------------------------------------*/
+
+/*
+
+*/
+.u-color-primary-light {
+    color: #7373f5 !important;
+}
+
+.u-color-primary-base {
+    color: var(--primary-color) !important;
+}
+
+.u-color-primary-dark {
+    color: var(--primary-color-dark) !important;
+}
 
 /*
     Utilities: spacing
