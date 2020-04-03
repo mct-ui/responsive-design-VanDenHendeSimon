@@ -215,6 +215,10 @@ a:focus {
     padding: 48px 24px 24px;
 }
 
+.o-row--neutral-x-light {
+    background-color: #F7F7F7;
+}
+
 @media (min-width: 768px) {
     .o-row {
         padding-left: 48px;
@@ -244,6 +248,12 @@ a:focus {
     width: 100%;
     max-width: 56.4em; /* 56.4 * 20px = 1128 */
 }
+
+/*
+    Objects: Secion
+    ---
+    Verticaal alignen
+*/
 
 /*
     Objects: Layout
