@@ -219,6 +219,10 @@ a:focus {
     background-color: #F7F7F7;
 }
 
+.o-row--gradient {
+    background: linear-gradient(to top right, var(--primary-color-dark) 0%,#7373F5 100%);
+}
+
 @media (min-width: 768px) {
     .o-row {
         padding-left: 48px;
@@ -446,6 +450,7 @@ a:focus {
     transition-timing-function: ease-in-out;
 }
 
+
 .c-link-cta:hover {
     color: #3E3EA8;
 }
@@ -453,6 +458,20 @@ a:focus {
 .c-link-cta:hover::before {
     transform: scaleX(1);
     background-color: #3e3ea8;
+}
+
+.c-link-cta--inverse,
+.c-link-cta--inverse:visited,
+.c-link-cta--inverse:active {
+    color: #fff;
+}
+
+.c-link-cta--inverse:before {
+    background-color: #fff;
+}
+
+.c-link-cta--inverse:hover::before {
+    background-color: #fff;
 }
 
 
@@ -597,9 +616,10 @@ a:focus {
   1 ding die heel specifiek wordt aangepast en altijd moet overrulen
 \*------------------------------------*/
 
-/*
+.u-color-neutral-light {
+    color: #fff;
+}
 
-*/
 .u-color-primary-light {
     color: #7373f5 !important;
 }
@@ -622,6 +642,16 @@ a:focus {
     padding-top: 0 !important;
 }
 
+/*
+    Utitilies: width
+    ---
+
+*/
+
+.u-width-auto {
+    display: inline;
+    max-width: 20%;
+}
 
 /*
     Utilities: max-width
